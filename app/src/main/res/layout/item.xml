@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#72D6EDF1"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/im_avt"
+        android:src="@drawable/ic_security_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/tv_title"
+            android:text="Title"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_weight="3"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/tv_desc"
+            android:text="noi dung"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_pubdate"
+            android:lines="1"
+            android:text="pubDate"
+            android:textSize="10sp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+</LinearLayout>
